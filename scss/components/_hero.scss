@@ -1,20 +1,48 @@
 .hero {
-    padding: 50px 0;
-    background: {
-        position: center right;
-        repeat: no-repeat;
-        size: cover;
-        image: url('../images/slider.jpg');
-    }
-    @include mediaMin(md) {
-        padding: 100px 0;
-    }
+     position: relative;
+
+     img.slider-img{
+        height: 565px;
+     }
+
+     &__slider-logo{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 364px;
+        height: 256px;;
+     }
 
     .hero-content{
+        position: absolute;
+        top: 0;
+        left: 10%;
+        background-color: rgb(0, 0, 0, 0.5);
+        padding:150px 50px;
+        font-size: 30px;
+        color: $white;
+        font-family: $font-head;
+        text-transform: uppercase;
+        width: 40%;
+        height: 100%;
+
+        h1{
+            color: $white;
+            font-size: 30px;
+
+            span{
+                display: inline-block;
+                width: 70px;
+                height: 2px;
+                background: $white;
+                margin-right: 20px;
+                position: relative;
+                top: -4px;
+            }
+        }
         
         p{
-            font-size: 25px;
-            color: $dark-grey;
+            
         }
         a{
             padding: 10px 30px;
@@ -25,5 +53,5 @@
 }
 
 .headline{
-    font-size: 25px;
+    font-size: 20px;
 }

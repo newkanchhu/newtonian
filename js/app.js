@@ -1,4 +1,16 @@
 $(function() {
+    // burger menu toggle
+    const $burgerMenu = $('.main-nav__burger'),
+        $menuWrapper = $('.main-nav__wrapper');
+    $burgerMenu.on('click', e => {
+        $menuWrapper.toggleClass('active');
+    });
+
+    // mobile sub-nav handler
+    $('li.has-dropdown').on('click', e => {
+        $(e.currentTarget).toggleClass('active');
+    });
+
     //search hide show
     $(document).ready(function(){
         $(".search-button").click(function(){
@@ -16,10 +28,10 @@ $(function() {
             items:1
             },
             600:{
-            items:1
+            items:2
             },
             1000:{
-            items: 1,
+            items: 3,
             nav: true,
             loop: true,
             margin: 20

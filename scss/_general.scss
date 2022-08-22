@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin: 16px 0;
 	color: $black;
+	font-family: $font-head;
 }
 
 a {
@@ -57,5 +58,5 @@ p{
 }
 
 .bg-light {
-	background-color: $light-grey !important;
+	background-color: $background-light !important;
 }

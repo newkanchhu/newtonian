@@ -1,42 +1,8 @@
 .main-nav {
 
-    ul {
-        display: flex;
-        justify-content: flex-end;
-        padding: 0;
-        margin: 0;
-        gap: 20px;
-        list-style: none;
-
-        .search-input{
-            display: none;
-            padding: 2px 10px;
-            border: 1px solid $dark-grey;
-            font-size: 14px;
-            height: 24px;
-            width: 250px;
-            margin-right: 8px;
-        }
-
-        .search-button{
-            cursor: pointer;
-        }
-    }
-
-    a {
-        display: block;
-        font-size: 18px;
-    }
-
-    &__logo {
-        display: inline-block;
-        width: auto;
-        height: 100%;
-        max-height: 60px;
-    }
-
     &__top {
         padding: 8px 0;
+        background-color: $white;
         
         a {
             font-size: 16px; 
@@ -45,15 +11,44 @@
                 color: $primary;
             }
         }
+
+        .top-address{
+            text-align: right;
+        }
+    }
+
+    ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+        list-style: none;
+    }
+
+        &__logo {
+        display: inline-block;
+        width: auto;
+        height: 100%;
+        max-height: 60px;
     }
 
     &__main {
         padding: 16px 0;
+        background-color: $primary;
 
         ul li {
             position: relative;
-            max-width: 120px;
-            margin: 0 5px;
+            margin: 0 11px;
+
+            a {
+                font-size: 16px;
+                color: $white;
+                text-transform: uppercase;
+
+                &:hover{
+                   color: $light-grey
+                }
+            }
 
             @include mediaMax(xl) {
                 margin-bottom: 12px;
