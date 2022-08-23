@@ -1,21 +1,42 @@
-.featured-products {
-    background: {
-        position: center right;
-        repeat: no-repeat;
-        size: cover;
-        attachment:fixed;
-        image: url('/inithive/images/feature-bg.jpg');
-    }
+.news-event {
+    background: #EFEFEF;    
+    padding: 50px;
 
     &__title{
         font-size: 30px;
-        color: $white;
+        color: $black;
         text-transform: uppercase;
         font-weight: bold;
-        padding-bottom: 20px;
- 
-        span{
-            
+        text-align: center; 
+        
+    }
+
+    .news-list{
+
+        .date{
+            margin-top: 20px;
+
+            span{
+                background-color: $primary;
+                color: $white;
+                padding: 5px 10px;
+                border-radius: 3px;
+            }
+        }
+
+        h3{
+            white-space: nowrap; 
+            width: 100%; 
+            overflow: hidden;
+            text-overflow: ellipsis; 
+        }
+
+        a{
+
+            &:hover{
+                color: $primary;
+                
+            }
         }
     }
 }

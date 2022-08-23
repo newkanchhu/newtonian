@@ -1,45 +1,23 @@
 .testimonials {
-    padding: 50px 0;
-
-    &__title{
+    
+    &__wrapper{
+        padding: 50px 0;
+        background:url(../images/testimonial-logo.png)#d7d3cf center left no-repeat;
         text-align: center;
     }
 
-    &__wrap{
-        margin: 1px;
-        
-        p{
-            border: 1px solid $light-grey;
-            padding: 25px;
-            font-style: italic;
-            position: relative;
+    &__title{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
 
-            &:before{
-                content: "";
-                position: absolute;
-                border: 1px solid $light-grey;
-                width: 20px;
-                height: 20px;
-                bottom: -20px;
-                transition: auto;
-                border-top: $white;
-                left: 20px;
-                background-color: $light-grey;
-                clip-path: polygon(0 0, 0% 100%, 100% 0);
-            }
-        }
+    &__wrap{
+        margin: 30px;
 
         .tesimonials__wrap__name{
-            display: flex;
-            align-items:center;
-            gap: 20px;
-            padding-top: 20px;
-        }
-
-        &__image{
-            width: 48px;
-            border-radius: 50px;
-            overflow: hidden;
+            color: $black;
+            font-size: 20px;
         }
     }
 
@@ -51,11 +29,12 @@
         text-align: center;
 
         .owl-dot{
-            width: 25px;
-            height: 10px;
-            background-color: $black;
+            width: 15px;
+            height: 15px;
+            background-color: transparent;
+            border: 1px solid $primary;
             margin: 0 5px;
-            border-radius: 5px;
+            border-radius: 50px;
         }
         .active{
             background-color: $primary;

@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="<?=url('css/app.css')?>">
+    <link rel="stylesheet" href="<?=url('css/hover.css')?>">
 </head>
 <body>
 <?php include 'navigation.php'; ?>

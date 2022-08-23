@@ -20,3 +20,12 @@ $grid-breakpoints: (
 .img-responsive{
   max-width: 100%;
 }
+
+.clearfix{
+  clear:both
+}
+
+%absolute {
+  position: absolute;
+  content: '';
+}

@@ -2,7 +2,7 @@
     <section class="main-nav__top">
         <div class="container top-menu">
             <div class="row">
-            <div class="col-4 col-md-4">
+            <div class="col-md-4">
                     <a title="Newtonian Science Counselling Institute Pvt. Ltd" href="index.php">
                         <img class="lozad main-nav__logo" data-src="images/logo.png">
                     </a>
@@ -26,20 +26,21 @@
                             <em class="fa fa-times"></em>
                         </button>
                         <ul>
-                            <li><a href="service.php">About Us</a></li>
-                            <li class="has-dropdown"><a href="#">Universities</a>
+                            <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="#">Universities</a></li>
+                            <li class="has-dropdown"><a href="course.php">Courses</a>
                                 <ul>
-                                    <li><a href="#">menu 1</a></li>
-                                    <li><a href="#">menu 2</a></li>
-                                    <li><a href="#">menu 3</a></li>
+                                    <li><a href="#">MBBS</a></li>
+                                    <li><a href="#">BDS</a></li>
+                                    <li><a href="#">Engineering</a></li>
+                                    <li><a href="#">Tourism Management</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Courses</a></li>
                             <li><a href="#">Fee Structure</a></li>
                             <li><a href="#">Scholarship In China</a></li>
-                            <li><a href="#">Gallery</a></li>
+                            <li><a href="gallery.php">Gallery</a></li>
                             <li><a href="#">FAQ</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

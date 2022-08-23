@@ -1,12 +1,29 @@
 <?php include 'include/header.php'; ?>
 
 <section class="hero">
-    <img class="lozad img-responsive slider-img" data-src="images/slider.jpg">
-    <div class="hero__slider-logo"><img class="lozad img-responsive" data-src="images/slider-logo.png" alt=""></div>
-    <div class="hero-content">
-        <h1 class="text-uppercase"><span></span>Medical Education</h1>
-        <p>Leading Company to Enroll International Students.</p>
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-md-6 hero-column">
+                <div class="hero-content">
+                    <h1 class="text-uppercase">Medical Education</h1>
+                    <p>Leading Company to Enroll International Students.</p>
+                </div>
+            </div>
+        </div>
     </div>
+    <?php /* <div class="hero-wrapper position-absolute w-100 h-100" style="top: 0; left: 0">
+        <div class="container">
+            <div class="row">
+                <div class="hero__slider-logo"><img class="lozad img-responsive" data-src="images/slider-logo.png" alt=""></div>
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        <h1 class="text-uppercase"><span></span>Medical Education</h1>
+                        <p>Leading Company to Enroll International Students.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> */ ?>
 </section>
 
 <section>
@@ -23,11 +40,11 @@
                 <div class="img3 img"><img class="img-responsive lozad" data-src="images/c3.jpg"></div>
             </div>
             <div class="course-image mobile-course-image">
-                <div class="img1"><img class="img-responsive lozad" data-src="images/c1.jpg"></div>
+                <div class="img1"><img class="img-responsive lozad" data-src="images/course.jpg"></div>
             </div>
             </div>
             <div class="col-md-5">
-                <div class="title"><span></span>Our courses</div>
+                <div class="title">Our courses</div>
                 <h2>Choose Your Course Carefully</h2>
                 <div class="course-list-wrap">
                     <div class="course-list row">
@@ -63,7 +80,7 @@
                         <div class="clearfix"></div>
                     </div>
                 </div>
-                <div><a href="">+ View All</a></div>
+                <div class="view-more"><a href="">+ View All Courses</a></div>
             </div>
             <div class="clearfix"></div>
             
@@ -77,41 +94,46 @@
             <div class="h1 news-event__title">News & Events</div>
             <div class="col-md-4">
                 <div class="news-list">
-                    <div class="date"></div>
-                    <h3></h3>
-                    <p></p>
-                    <div><a href="">Read More <i class="fas fa-long-arrow-alt-right"></i></a></div>
+                    <div class="date"><span>April 12,2019</span></div>
+                    <h3>A Visit Of Delegation From Sichuan</h3>
+                    <p>A delegation of Sichuan University led by Prof.Yan Shijing,Vice President of Sichuan University and Secretary General of “China Center</p>
+                    <div><a class="hvr-icon-forward" href="">Read More <i class="fas fa-long-arrow-alt-right hvr-icon"></i></a></div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="news-list">
-                    <div class="date"></div>
-                    <h3></h3>
-                    <p></p>
-                    <div><a href="">Read More <i class="fas fa-long-arrow-alt-right"></i></a></div>
+                    <div class="date"><span>September 15, 2019</span></div>
+                    <h3>Interaction program</h3>
+                    <p>A delegation of Sichuan University led by Prof.Yan Shijing,Vice President of Sichuan University and Secretary General of “China Center</p>
+                    <div><a class="hvr-icon-forward" href="">Read More <i class="fas fa-long-arrow-alt-right hvr-icon"></i></a></div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="news-list">
-                    <div class="date"></div>
-                    <h3></h3>
-                    <p></p>
-                    <div><a href="">Read More <i class="fas fa-long-arrow-alt-right"></i></a></div>
+                    <div class="date"><span>September 15, 2019</span></div>
+                    <h3>Interaction program</h3>
+                    <p>A delegation of Sichuan University led by Prof.Yan Shijing,Vice President of Sichuan University and Secretary General of “China Center</p>
+                    <div><a class="hvr-icon-forward" href="">Read More <i class="fas fa-long-arrow-alt-right hvr-icon"></i></a></div>
                 </div>
             </div>
+            <div class="clearfix"></div>
         </div>
     </div>
 </section>
 
 <section class="aboutus">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6"></div>
+        <div class="aboutus__content-wrap">
             <div class="col-md-6">
-                <div class="sub-title"><span></span>About US</div>
-                <div class="h1 aboutus__title">Newtonian Science Counselling Institute (NSCI) Pvt. Ltd.</div>
-                <p></p>
-                <p class="more"><span><a class="" href="about.php"> Read more <i class="fas fa-long-arrow-alt-right"></i></a></span></p>
+                <div><img class="img-responsive lozad" data-src="images/about.jpg"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-wrap">
+                    <div class="title">About US</div>
+                    <div class="h1 aboutus__title">Newtonian Science Counselling Institute (NSCI) Pvt. Ltd.</div>
+                    <p>Newtonian Science Counselling Institute (NSCI) Pvt. Ltd. is a pioneer and a leading company to enroll international students for Medical Education in top ranked government universities in China. We are a well established and highly reputed company representing the top most medical institutions in China for the MBBS course taught in English medium. NSCI received the International Arch of Europe Award in Frankfurt, </p>
+                    <p class="more"><span><a class="hvr-icon-forward" href="about.php"> Read more <i class="fas fa-long-arrow-alt-right hvr-icon"></i></a></span></p>
+                </div>
             </div>
         </div>
     </div>
@@ -119,12 +141,6 @@
 
 <?php include 'include/testimonial.php'; ?>
 
-<section class="unniversity">
-    <div class="container">
-        <div class="row">
-            <div class="h1 university__title">Our University</div>
-        </div>
-    </div>
-</section>
+<?php include 'include/university.php'; ?>
 
 <?php include 'include/footer.php'; ?>

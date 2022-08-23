@@ -3,7 +3,14 @@
     &__top {
         padding: 8px 0;
         background-color: $white;
-        
+        text-align: center;
+
+        @include mediaMin(md) {
+            .col-md-4{
+                text-align: left;
+            }
+        }
+               
         a {
             font-size: 16px; 
 
@@ -13,7 +20,14 @@
         }
 
         .top-address{
-            text-align: right;
+            margin-top: 20px;
+        }
+        @include mediaMin(md) {
+            .top-address{
+                text-align: right;
+                margin-top: 4px;
+                margin-bottom: 0;
+            }
         }
     }
 
@@ -36,9 +50,23 @@
         padding: 16px 0;
         background-color: $primary;
 
-        ul li {
+        ul > li {
             position: relative;
             margin: 0 11px;
+            display: inherit;
+            align-items: center;
+            margin: 0 5px;
+
+            &.has-dropdown:after {
+                z-index: 9;
+                font-family: $font-icon;
+                font-weight: 900;
+                text-align: center;
+                content: "\f078";
+                cursor: pointer;
+                color: $white;
+                margin-left: 8px;
+            }
 
             a {
                 font-size: 16px;
@@ -85,10 +113,11 @@
                     left: 0;
                     display: block;
                     width: 240px;
-                    background-color: $primary;
+                    background-color: $white;
                     opacity: 0;
                     transform: translateY(-30px);
                     z-index: 11;
+                    box-shadow: 0 0 3px $white;
                 }
 
                 li {
@@ -103,10 +132,11 @@
                         color: $white;
                         @include mediaMin(xl) {
                             padding: 8px 16px;
-
+                            color: $primary;
+                            
                             &:hover {
-                                background-color: $light-grey;
-                                color: $black;
+                                background-color: $primary;
+                                color: $white;
                             }
                         }
                     }
@@ -156,6 +186,8 @@
     @include mediaMax(xl) {
         .main-nav__burger{
             background-color: transparent !important;
+            color:$white;
+            font-size: 20px;
         }
 
         &__wrapper {
