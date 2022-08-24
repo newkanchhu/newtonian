@@ -95,25 +95,25 @@
             <div class="col-md-4">
                 <div class="news-list">
                     <div class="date"><span>April 12,2019</span></div>
-                    <h3>A Visit Of Delegation From Sichuan</h3>
+                    <h3 title="A Visit Of Delegation From Sichuan">A Visit Of Delegation From Sichuan</h3>
                     <p>A delegation of Sichuan University led by Prof.Yan Shijing,Vice President of Sichuan University and Secretary General of “China Center</p>
-                    <div><a class="hvr-icon-forward" href="">Read More <i class="fas fa-long-arrow-alt-right hvr-icon"></i></a></div>
+                    <div><a class="hvr-icon-forward" href="news-detail.php">Read More <i class="fas fa-long-arrow-alt-right hvr-icon"></i></a></div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="news-list">
                     <div class="date"><span>September 15, 2019</span></div>
-                    <h3>Interaction program</h3>
+                    <h3 title="A Visit Of Delegation From Sichuan">Interaction program</h3>
                     <p>A delegation of Sichuan University led by Prof.Yan Shijing,Vice President of Sichuan University and Secretary General of “China Center</p>
-                    <div><a class="hvr-icon-forward" href="">Read More <i class="fas fa-long-arrow-alt-right hvr-icon"></i></a></div>
+                    <div><a class="hvr-icon-forward" href="news-detail.php">Read More <i class="fas fa-long-arrow-alt-right hvr-icon"></i></a></div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="news-list">
                     <div class="date"><span>September 15, 2019</span></div>
-                    <h3>Interaction program</h3>
+                    <h3 title="A Visit Of Delegation From Sichuan">Interaction program</h3>
                     <p>A delegation of Sichuan University led by Prof.Yan Shijing,Vice President of Sichuan University and Secretary General of “China Center</p>
-                    <div><a class="hvr-icon-forward" href="">Read More <i class="fas fa-long-arrow-alt-right hvr-icon"></i></a></div>
+                    <div><a class="hvr-icon-forward" href="news-detail.php">Read More <i class="fas fa-long-arrow-alt-right hvr-icon"></i></a></div>
                 </div>
             </div>
             <div class="clearfix"></div>

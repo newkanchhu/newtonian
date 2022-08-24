@@ -1,58 +1,30 @@
-.contact-top-banner{
-    position: relative;
-    padding: 50px 0;
-    background:{
-        position: center right;
-        repeat: no-repeat;
-        size: cover;
-        image: url('../images/contact-bg.jpg');
-        attachment:fixed;
-    }
+.contactpage-wrapper{
 
-    &:before{
-        content: "";
-        position: absolute;
-        width: 100%;
+    &__contact-wrap{
+        text-align: center;
+        border: 1px solid $primary;
         height: 100%;
-        background: rgb(0 0 0 / 70%);
-        top: 0;
-    }
+        padding: 20px;
 
-    &__content{
-        color: $white;
-        z-index: 1;
-        position: relative;
-    }
-
-    &__title{
-        font-size: 35px;
-
-        span{
-           
+        .contact-follow{
+            font-family: $font-head;
+            color: $primary;
+            text-transform: uppercase;
+            font-size: 20px;
+            margin-bottom: 10px;
         }
     }
-    
-}
 
-.contact {
-
-    &__form {
-        // border: 1px solid #ccc;
+    .title{
+        font-size: 20px;
+        margin: 20px 0;
+        color: $primary;
     }
-    
-    &__map {
+    .contact__map{
         position: relative;
         width: 100%;
         height: 100%;
         min-height: 300px;
-
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            border: 0;
-            width: 100%;
-            height: 100%;
-        }
     }
+    
 }

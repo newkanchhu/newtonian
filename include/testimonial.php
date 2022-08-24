@@ -17,9 +17,9 @@
                     <div class="item">
                         <div class="box">
                             <div class="testimonials__wrap">
-                                <p>We provide a range of cloud services and products. We are dedicated in giving you the best possible services without going through all the hassles associated with proprietary systems. We provide a range of cloud services and products.</p>
+                                <p>All the teachers and facilities are very good</p>
                                 <div class="tesimonials__wrap__name">
-                                    <div class="">Celia Almeda</div>
+                                    <div class="">Bivek Rai</div>
                                 </div>
                             </div>
                         </div>
@@ -27,9 +27,9 @@
                     <div class="item">
                         <div class="box">
                             <div class="testimonials__wrap">
-                                <p>We provide a range of cloud services and products. We are dedicated in giving you the best possible services without going through all the hassles associated with proprietary systems. We provide a range of cloud services and products.</p>
+                                <p>As this university is appropriate for medical study, after I completed my MBBS in 2007 from this university , I have got an opportunity to study Post-Graduation in this university under under Chinese government full scholarship.This medical school is better than any medical school in Nepal, India or Sri Lanka.</p>
                                 <div class="tesimonials__wrap__name">
-                                    <div class="">Celia Almeda</div>
+                                    <div class="">Dr. Sanjay Shakya</div>
                                 </div>
                             </div>
                         </div>
@@ -37,13 +37,34 @@
                     <div class="item">
                         <div class="box">
                             <div class="testimonials__wrap">
-                                <p>We provide a range of cloud services and products. We are dedicated in giving you the best possible services without going through all the hassles associated with proprietary systems. We provide a range of cloud services and products.</p>
+                                <p>I really like the teaching.</p>
                                 <div class="tesimonials__wrap__name">
-                                    <div class="">Celia Almeda</div>
+                                    <div class="">Serena Dendre</div>
                                 </div>
                             </div>
                         </div>
-                    </div>        
+                    </div>  
+                    <div class="item">
+                        <div class="box">
+                            <div class="testimonials__wrap">
+                                <p>Facilities and faculties are very nice. The environmental conditions are also good</p>
+                                <div class="tesimonials__wrap__name">
+                                    <div class="">Sahitya</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="item">
+                        <div class="box">
+                            <div class="testimonials__wrap">
+                                <p>The teachers are very good and cooperative. The  hospital is really good. It is  one of the best  among the  hospitals in Asia. We can see the variety of patients for practice in the hospital.</p>
+                                <div class="tesimonials__wrap__name">
+                                    <div class="">Raghavendra Rao</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                          
                 </div>
             </div>
         </div>

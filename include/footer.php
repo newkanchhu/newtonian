@@ -19,17 +19,17 @@
                 <div class="footer-menu">
                     <h4>Site <span>Information</span></h4>
                     <ul style="column-count: 2;">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About Us</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about-us.php">About Us</a></li>
                         <li><a href="">Universities</a></li>
-                        <li><a href="">Course</a></li>
+                        <li><a href="course.php">Course</a></li>
                         <li><a href="">Fees Structure</a></li>
-                        <li><a href="">Scholorship in Chian</a></li>
-                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Scholorship in China</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
                         <li><a href="">Testimonials</a></li>
-                        <li><a href="">How to Apply</a></li>
+                        <li><a href="apply.php">How to Apply</a></li>
                         <li><a href="">Application Form</a></li>
-                        <li><a href="">News & Events</a></li>
+                        <li><a href="news.php">News & Events</a></li>
                         <li><a href="">FAQ</a></li>
                     </ul>
                 </div>
@@ -57,6 +57,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.5.1/jquery.nicescroll.min.js"></script>
 <script src="<?=url('js/app.js')?>"></script>
+<script src="<?=url('js/lightbox.min.js')?>"></script>
 
 <!-----------for image loader-----------------> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js"></script>

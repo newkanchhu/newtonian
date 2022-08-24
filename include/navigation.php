@@ -30,16 +30,34 @@
                             <li><a href="#">Universities</a></li>
                             <li class="has-dropdown"><a href="course.php">Courses</a>
                                 <ul>
-                                    <li><a href="#">MBBS</a></li>
+                                    <li><a href="mbbs.php">MBBS</a></li>
                                     <li><a href="#">BDS</a></li>
-                                    <li><a href="#">Engineering</a></li>
+                                    <li class="has-sub-dropdown">
+                                        <a href="#">Engineering</a>
+                                        <ul>
+                                            <li><a href="#">Civil Engineering</a></li>
+                                            <li><a href="#">Software Engineering</a></li>
+                                            <li><a href="#">Computer Science Engineering</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href="#">Tourism Management</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Fee Structure</a></li>
+                            <li class="has-dropdown"><a href="#">Fee Structure</a>
+                                <ul>
+                                    <li><a href="">Sihuan University</a></li>
+                                    <li><a href="">Sheyang Aerospace University</a></li>
+                                    <li><a href="">UESTC</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#">Scholarship In China</a></li>
                             <li><a href="gallery.php">Gallery</a></li>
-                            <li><a href="#">FAQ</a></li>
+                            <li class="has-dropdown"><a href="#">FAQ</a>
+                                <ul>
+                                    <li><a href="faq.php">Sichuan University</a></li>
+                                    <li><a href="">Shenyang Aerospace University</a></li>
+                                </ul>
+                            </li>
                             <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>

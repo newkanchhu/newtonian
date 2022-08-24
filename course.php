@@ -17,7 +17,7 @@
                 <div class="course-list row">
                     <div class="col-md-3 course-icon"><img class="img-responsive lozad" data-src="images/icon1.png"></div>
                     <div class="col-md-9">
-                        <div class="course-title"><a href="">MBBS</a></div>
+                        <div class="course-title"><a href="mbbs.php">MBBS</a></div>
                         <p>To produce internationally competent clinicians with solid medical knowledge, </p>
                     </div>
                     <div class="clearfix"></div>
@@ -57,9 +57,9 @@
             <div class="clearfix"></div>
             <div class="col-md-6">
                 <div class="course-list row">
-                    <div class="col-md-3 course-icon"><img class="img-responsive lozad" data-src="images/icon4.png"></div>
+                    <div class="col-md-3 course-icon"><img class="img-responsive lozad" data-src="images/icon5.png"></div>
                     <div class="col-md-9">
-                        <div class="course-title"><a href="">Tourism Management</a></div>
+                        <div class="course-title"><a href="">Buisiness Management</a></div>
                         <p>To produce internationally competent clinicians with solid medical knowledge, </p>
                     </div>
                     <div class="clearfix"></div>
@@ -67,9 +67,9 @@
             </div>
             <div class="col-md-6">
                 <div class="course-list row">
-                    <div class="col-md-3 course-icon"><img class="img-responsive lozad" data-src="images/icon4.png"></div>
+                    <div class="col-md-3 course-icon"><img class="img-responsive lozad" data-src="images/icon6.png"></div>
                     <div class="col-md-9">
-                        <div class="course-title"><a href="">Tourism Management</a></div>
+                        <div class="course-title"><a href="">Chinese Language</a></div>
                         <p>To produce internationally competent clinicians with solid medical knowledge, </p>
                     </div>
                     <div class="clearfix"></div>
